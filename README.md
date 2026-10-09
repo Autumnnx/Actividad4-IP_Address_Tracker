@@ -1,3 +1,20 @@
+<p align="center">
+  <a href="https://actividad4-ip-address-tracker.onrender.com/">
+    <img src="https://img.shields.io/badge/Ver%20demo-Probar%20aplicaci%C3%B3n-6C63FF?style=for-the-badge" alt="Ver demo de la aplicación">
+  </a>
+</p>
+
+## Saludo académico
+
+Saludos cordiales al profesor Jeferson Urrego: muchas gracias por acompañarnos y guiarnos en esta actividad académica. Este proyecto representa la aplicación práctica de conceptos de frontend, backend, APIs externas y despliegue, y es un esfuerzo de aprendizaje que agradecemos profundamente.
+
+### Estudiantes
+Santiago Cárdenas
+
+Luisa Puentes
+
+Juan Romero
+
 # IP Address Tracker
 
 Aplicación web desarrollada como proyecto académico a partir del reto **IP Address Tracker** de Frontend Mentor. La app permite consultar una dirección IP o un dominio y visualizar información geográfica asociada, como ubicación, zona horaria, ISP y un mapa interactivo del lugar detectado.
@@ -129,6 +146,8 @@ Además:
 
 El proyecto está preparado para desplegarse en Render como un servicio web.
 
+https://actividad4-ip-address-tracker.onrender.com/
+
 ### Variables requeridas en producción
 
 ```env
@@ -152,9 +171,6 @@ La carpeta `docs/` incluye información técnica detallada sobre:
 - despliegue y entorno
 - flujo de trabajo con Git y GitHub
 
-## Saludo académico
-
-Saludos cordiales al profesor: muchas gracias por acompañarnos y guiarnos en esta actividad académica. Este proyecto representa la aplicación práctica de conceptos de frontend, backend, APIs externas y despliegue, y es un esfuerzo de aprendizaje que agradecemos profundamente.
 
 ## Créditos
 

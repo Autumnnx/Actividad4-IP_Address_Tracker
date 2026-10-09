@@ -36,7 +36,7 @@ body {
   border: 0;
 }
 
-/* --- Hero / Header --- */
+/* --- Encabezado --- */
 .hero {
   background-image: url('../images/pattern-bg-mobile.png');
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ main {
   z-index: 1;
 }
 
-/* --- Media Queries (Escritorio) --- */
+/* --- Consultas de medios (escritorio) --- */
 @media (min-width: 768px) {
   .hero {
     background-image: url('../images/pattern-bg-desktop.png');
@@ -209,5 +209,67 @@ main {
 
   .location-break {
     display: block;
+  }
+}
+
+/* --- Ajustes para móvil --- */
+@media (max-width: 700px) {
+  .hero {
+    height: 300px;
+    padding: 0;
+  }
+
+  .hero__inner {
+    position: relative;
+    width: calc(100% - 48px);
+    height: 100%;
+    padding-top: 26px;
+  }
+
+  .search-form {
+    height: 58px;
+  }
+
+  .search-form input[type="text"] {
+    min-width: 0;
+  }
+
+  /* La tarjeta se superpone al encabezado, como en el diseño móvil. */
+  .info-card {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    margin: 0;
+    padding: 1.6rem 1.25rem;
+    gap: 1.35rem;
+    text-align: center;
+  }
+
+  .info-card__item h2 {
+    margin-bottom: 0.45rem;
+  }
+
+  .info-card__item p {
+    font-size: 1.25rem;
+    overflow-wrap: anywhere;
+  }
+
+  .location-break {
+    display: none;
+  }
+
+  .map {
+    height: calc(100vh - 300px);
+    min-height: 540px;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero__inner {
+    width: calc(100% - 40px);
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
   }
 }
